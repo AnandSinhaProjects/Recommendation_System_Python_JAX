@@ -3,11 +3,10 @@
 Person: Anand Sinha
 Status: In progress
 Tags: Lesson
-Files: Recommendation%20Systems%20with%20Python%20and%20JAX%2025c61676103e43f8bcd44e93162e4238/Bryan_Bischof_Hector_Yee_-_Building_Recommendation_Systems_in_Python_and_JAX__Hands-On_Production_Systems_at_Scale-OReilly_Media_(2023).pdf
 
 # Introduction
 
-Ubiquity of any technology often prompts questions of how the technology works, why it has become so common, and if we can get in on the action. For recommendation systems, the *how* is quite complicated. We’ll need to understand the geometry of taste, and how only a little bit of interaction from a user can provide us a *GPS signal* in that abstract space. You’ll see how to quickly gather a great set of candidates and how to refine them to a cohesive set of recommendations.
+The ubiquity of any technology often prompts questions of how the technology works, why it has become so common, and if we can get in on the action. For recommendation systems, the *how* is quite complicated. We’ll need to understand the geometry of taste, and how only a little bit of interaction from a user can provide us with a *GPS signal* in that abstract space. You’ll see how to quickly gather a great set of candidates and how to refine them to a cohesive set of recommendations.
 
 We will formulate variants of the core problem to be solved by recommendation systems but, ultimately, the motivating problem framing is as follows:
 
@@ -19,7 +18,7 @@ We will identify and build on three core components of recommendation systems: t
 
 ### **Collector**
 
-The collector’s role is to know what is in the collection of things that may be rec‐ ommended, and the necessary features or attributes of those things. Note that this collection is often a subset based on context or state.
+The collector’s role is to know what is in the collection of things that may be recommended, and the necessary features or attributes of those things. Note that this collection is often a subset based on context or state.
 
 ### **Ranker**
 
@@ -28,15 +27,13 @@ all of its elements, according to a model for the context and user.
 
 ### **Server**
 
-The server’s role is to take the ordered subset provided by the ranker, ensure that the
-necessary data schema is satisfied—including essential business logic—and return the
-requested number of recommendations.
+The server’s role is to take the ordered subset provided by the ranker, ensure that the necessary data schema is satisfied—including essential business logic—and return the requested several recommendations.
 
 ---
 
 ## **Simplest Possible Recommenders**
 
-We’ve established the components of a recommender, but to really make this practical, we need to see this in action. 
+We’ve established the components of a recommender, but to make this practical, we need to see this in action. 
 
 ### **The Trivial Recommender**
 
