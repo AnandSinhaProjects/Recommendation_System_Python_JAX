@@ -251,3 +251,7 @@ Variable-length loops trigger frequent recompilations. The “Just-in-Time Compi
 ## The User-Item Matrix
 
 It’s extremely common to hear those who work on recommendation systems talk about matrices, and in particular the user-item matrix. While linear algebra is deep, both mathematically and as it applies to RecSys, we will begin with simple relationships.
+
+
+MORE TO BE ADDED TRYING TO FIND IT 
+
